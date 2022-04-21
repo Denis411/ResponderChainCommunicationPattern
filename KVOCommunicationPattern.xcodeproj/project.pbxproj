@@ -65,9 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				679C9ED028114E8900735D27 /* Info.plist */,
+				679C9EE12811693300735D27 /* ButtonProtocols */,
 				679C9EE02811611D00735D27 /* Standards */,
-				679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */,
-				679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */,
 				679C9EC628114E8700735D27 /* ViewController.swift */,
 				679C9ED628114F0C00735D27 /* VC2.swift */,
 				679C9ED828114F1900735D27 /* VC3.swift */,
@@ -85,6 +84,15 @@
 				679C9EC428114E8700735D27 /* SceneDelegate.swift */,
 			);
 			path = Standards;
+			sourceTree = "<group>";
+		};
+		679C9EE12811693300735D27 /* ButtonProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */,
+				679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */,
+			);
+			path = ButtonProtocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
