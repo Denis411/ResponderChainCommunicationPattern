@@ -33,6 +33,7 @@ extension VC3 {
         buttonForCommunication.setTitle("Change color", for: .normal)
         buttonForCommunication.setTitleColor(.black, for: .normal)
         buttonForCommunication.setTitleColor(.orange, for: .highlighted)
+        buttonForCommunication.addTarget(self, action: #selector(checkResponderChain), for: .touchUpInside)
 
         view.addSubview(buttonForCommunication)
         buttonForCommunication.translatesAutoresizingMaskIntoConstraints = false
@@ -46,4 +47,14 @@ extension VC3 {
     @objc private func dismissButtonAction() {
         self.dismiss(animated: true, completion: nil)
     }
+    
+// Step 2, send to find the aciton in hierarchy 
+    @objc private func checkResponderChain() {
+        UIApplication.shared.sendAction(#selector(ResponderAction.changeColor), to: nil, from: self, for: nil)
+    }
+}
+
+// Step 1, declare a protocol
+@objc protocol ResponderAction: AnyObject {
+    func changeColor(sender: Any?)
 }

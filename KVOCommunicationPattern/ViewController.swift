@@ -31,4 +31,13 @@ extension ViewController {
     }
 }
 
-
+// Step 3 determen action to perform
+extension ViewController: ResponderAction {
+    func changeColor(sender: Any?) {
+        print("Done")
+        view.backgroundColor = UIColor(hue: CGFloat.random(in: 0...1),
+                                       saturation: CGFloat.random(in: 0...1),
+                                       brightness: CGFloat.random(in: 0...1),
+                                       alpha: 1)
+    }
+}
