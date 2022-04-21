@@ -13,6 +13,10 @@
 		679C9ECA28114E8700735D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679C9EC828114E8700735D27 /* Main.storyboard */; };
 		679C9ECC28114E8900735D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679C9ECB28114E8900735D27 /* Assets.xcassets */; };
 		679C9ECF28114E8900735D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679C9ECD28114E8900735D27 /* LaunchScreen.storyboard */; };
+		679C9ED728114F0C00735D27 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C9ED628114F0C00735D27 /* VC2.swift */; };
+		679C9ED928114F1900735D27 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C9ED828114F1900735D27 /* VC3.swift */; };
+		679C9EDD28114FAA00735D27 /* DismissButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */; };
+		679C9EDF281152CE00735D27 /* NextButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		679C9ECB28114E8900735D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		679C9ECE28114E8900735D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		679C9ED028114E8900735D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679C9ED628114F0C00735D27 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		679C9ED828114F1900735D27 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonProtocol.swift; sourceTree = "<group>"; };
+		679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				679C9EC228114E8700735D27 /* AppDelegate.swift */,
 				679C9EC428114E8700735D27 /* SceneDelegate.swift */,
+				679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */,
+				679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */,
 				679C9EC628114E8700735D27 /* ViewController.swift */,
+				679C9ED628114F0C00735D27 /* VC2.swift */,
+				679C9ED828114F1900735D27 /* VC3.swift */,
 				679C9EC828114E8700735D27 /* Main.storyboard */,
 				679C9ECB28114E8900735D27 /* Assets.xcassets */,
 				679C9ECD28114E8900735D27 /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				679C9EC728114E8700735D27 /* ViewController.swift in Sources */,
 				679C9EC328114E8700735D27 /* AppDelegate.swift in Sources */,
+				679C9EDF281152CE00735D27 /* NextButtonProtocol.swift in Sources */,
+				679C9ED928114F1900735D27 /* VC3.swift in Sources */,
 				679C9EC528114E8700735D27 /* SceneDelegate.swift in Sources */,
+				679C9ED728114F0C00735D27 /* VC2.swift in Sources */,
+				679C9EDD28114FAA00735D27 /* DismissButtonProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVH7P8Y4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KVOCommunicationPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVH7P8Y4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KVOCommunicationPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
