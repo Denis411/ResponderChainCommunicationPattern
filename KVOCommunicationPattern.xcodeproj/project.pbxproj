@@ -64,19 +64,27 @@
 		679C9EC128114E8700735D27 /* KVOCommunicationPattern */ = {
 			isa = PBXGroup;
 			children = (
-				679C9EC228114E8700735D27 /* AppDelegate.swift */,
-				679C9EC428114E8700735D27 /* SceneDelegate.swift */,
+				679C9EE02811611D00735D27 /* Standards */,
 				679C9EDC28114FAA00735D27 /* DismissButtonProtocol.swift */,
 				679C9EDE281152CE00735D27 /* NextButtonProtocol.swift */,
 				679C9EC628114E8700735D27 /* ViewController.swift */,
 				679C9ED628114F0C00735D27 /* VC2.swift */,
 				679C9ED828114F1900735D27 /* VC3.swift */,
-				679C9EC828114E8700735D27 /* Main.storyboard */,
-				679C9ECB28114E8900735D27 /* Assets.xcassets */,
-				679C9ECD28114E8900735D27 /* LaunchScreen.storyboard */,
 				679C9ED028114E8900735D27 /* Info.plist */,
 			);
 			path = KVOCommunicationPattern;
+			sourceTree = "<group>";
+		};
+		679C9EE02811611D00735D27 /* Standards */ = {
+			isa = PBXGroup;
+			children = (
+				679C9EC228114E8700735D27 /* AppDelegate.swift */,
+				679C9EC828114E8700735D27 /* Main.storyboard */,
+				679C9ECD28114E8900735D27 /* LaunchScreen.storyboard */,
+				679C9ECB28114E8900735D27 /* Assets.xcassets */,
+				679C9EC428114E8700735D27 /* SceneDelegate.swift */,
+			);
+			path = Standards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
